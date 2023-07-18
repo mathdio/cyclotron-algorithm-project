@@ -29,6 +29,22 @@ Cyclotron accelerating a neutron (`cyclotron(4, 'n')`) output:
 [1, 1, 1, 1]
 [1, 1, 1, 1]
 ```
+Cyclotron accelerating a proton, case 4x4 (`cyclotron(4, 'p')`) output:
+```
+[p, p, p, p]
+[p, 1, 1, p]
+[p, 1, p, p]
+[p, p, p, 1]
+```
+Cyclotron accelerating a proton, case 6x6 (`cyclotron(6, 'p')`) output:
+```
+[ p, p, p, p, p, p ]
+[ p, 1, 1, 1, 1, p ]
+[ p, 1, 1, 1, 1, p ]
+[ p, 1, 1, 1, 1, p ]
+[ p, 1, 1, 1, p, p ]
+[ p, p, p, p, p, 1 ]
+```
 
 ## 🛠️ Built with
 <a href="https://docs.python.org/3/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
