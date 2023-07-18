@@ -1,5 +1,5 @@
 # ⚛️ Cycloton Algorithm
-An nlgorith project to practice data sctructure and algorithm efficiency.
+An algorithm project to practice data sctructure and algorithm efficiency.
 
 ## 💻 About this project
 The algorithm in this project has a function called `cyclotron` that circulate a particle inside a cyclotron. The cycles for each particle type is unique. The first parameter of cyclotron function is the matrix value, and the second one is the particle type. The minimum matrix value is 4, and the particle types the function can receive are:
