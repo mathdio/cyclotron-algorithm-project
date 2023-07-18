@@ -18,6 +18,3 @@ def cyclotron(matrix, particle=None):
         return without_particle(matrix)
     else:
         raise ValueError("Invalid particle!")
-
-
-# print(cyclotron(4, "n"))
