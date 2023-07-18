@@ -2,7 +2,33 @@
 An nlgorith project to practice data sctructure and algorithm efficiency.
 
 ## 💻 About this project
-The algorithm in this project has a function called `cyclotron` that circulate a particle inside a cyclotron. The cycles for each particle type is unique. The first parameter of cyclotron function is the matrix value, and the second one is the particle type.
+The algorithm in this project has a function called `cyclotron` that circulate a particle inside a cyclotron. The cycles for each particle type is unique. The first parameter of cyclotron function is the matrix value, and the second one is the particle type. The minimum matrix value is 4, and the particle types the function can receive are:
+
+- electron (e);
+- proton (p);
+- neutron (n).
+
+Cyclotron without particles (`cyclotron(4)`) output:
+```
+[1, 1, 1, 1]
+[1, 1, 1, 1]
+[1, 1, 1, 1]
+[1, 1, 1, 1]
+```
+Cyclotron accelerating an electron (`cyclotron(4, 'e')`) output:
+```
+[e, e, e, e]
+[1, 1, 1, e]
+[1, 1, 1, e]
+[1, 1, 1, e]
+```
+Cyclotron accelerating a neutron (`cyclotron(4, 'n')`) output:
+```
+[n, n, n, n]
+[1, 1, 1, 1]
+[1, 1, 1, 1]
+[1, 1, 1, 1]
+```
 
 ## 🛠️ Built with
 <a href="https://docs.python.org/3/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
