@@ -14,4 +14,4 @@ def circulate_cyclotron(matrix, particle=None):
         return "Invalid particle!"
 
 
-print(circulate_cyclotron(7, "n"))
+print(circulate_cyclotron(4, "n"))
