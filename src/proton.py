@@ -24,6 +24,3 @@ def proton(matrix):
         accelerating = np.append(accelerating, [values], axis=0)
 
     return accelerating
-
-
-print(proton(5))
